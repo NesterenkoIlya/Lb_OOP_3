@@ -3,22 +3,23 @@
 #include "OperatingSystem.h"
 
 class WindowsOS : public OperatingSystem {
-    string activation_key = "Your Windows OS isn't activated!";
-    string release;
-    float* assembly;
+    string activation_key;  //Ключ активации
+    string release; //Выпуск
+    float* assembly;    //Сборка
 public:
-    WindowsOS();
-    WindowsOS(string, string, string, string, string, int, int, string, string, string, float);
-    WindowsOS(const WindowsOS&);
+    WindowsOS();    //Конструктор по умолчанию
+    WindowsOS(string, string, string, string, string, int, int, string, string, string, float); //Конструктор с параметром и спиком инициализаии
+    WindowsOS(const WindowsOS&);    //Конструктор копирования
 
-    void activation();
-    void update();
+    void activation();  //Метод для ввода ключа активации
+    void update();  //Метод для обновления
 
-    virtual void ToPrint() override;
-    virtual void change_version() override;
+    virtual void ToPrint() override;    //Предопределенная функция для вывода информации об объекте
+    virtual void change_version() override; //Переопределнный метод для изменения данных о версии
 
-    friend ostream& operator<< (ostream&, WindowsOS&);
-    friend istream& operator>> (istream&, WindowsOS&);
 
-    virtual ~WindowsOS();
+    friend istream& operator>> (istream&, WindowsOS&);  //Перегрузка оператора ввода
+    friend ostream& operator<< (ostream&, WindowsOS&);  //Перегрузка оператора вывода
+
+    virtual ~WindowsOS();   //Деструктор
 };

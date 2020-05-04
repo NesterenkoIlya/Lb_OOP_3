@@ -3,8 +3,6 @@
 #include "Software.h"
 
 class Printer {
-    friend void Software::ToPrint();
-
 public:
-    void printing(Software*);
+    void printing(Software*);   //Вызывает метод ToPrint объекта obj
 };

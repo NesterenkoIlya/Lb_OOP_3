@@ -6,15 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/athet/CLionProjects/Lb_OOP_3/Classes/CodeBlocks.h
-Software.h
-/home/athet/CLionProjects/Lb_OOP_3/Classes/Software.h
-
 /home/athet/CLionProjects/Lb_OOP_3/Classes/OperatingSystem.h
-Software.h
-/home/athet/CLionProjects/Lb_OOP_3/Classes/Software.h
-
-/home/athet/CLionProjects/Lb_OOP_3/Classes/Printer.h
 Software.h
 /home/athet/CLionProjects/Lb_OOP_3/Classes/Software.h
 
@@ -24,17 +16,11 @@ iostream
 string
 -
 
+/home/athet/CLionProjects/Lb_OOP_3/Classes/WindowsOS.cpp
+WindowsOS.h
+/home/athet/CLionProjects/Lb_OOP_3/Classes/WindowsOS.h
+
 /home/athet/CLionProjects/Lb_OOP_3/Classes/WindowsOS.h
 OperatingSystem.h
 /home/athet/CLionProjects/Lb_OOP_3/Classes/OperatingSystem.h
-
-/home/athet/CLionProjects/Lb_OOP_3/main.cpp
-iostream
--
-Classes/CodeBlocks.h
-/home/athet/CLionProjects/Lb_OOP_3/Classes/CodeBlocks.h
-Classes/WindowsOS.h
-/home/athet/CLionProjects/Lb_OOP_3/Classes/WindowsOS.h
-Classes/Printer.h
-/home/athet/CLionProjects/Lb_OOP_3/Classes/Printer.h
 

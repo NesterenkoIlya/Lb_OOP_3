@@ -8,8 +8,6 @@ Software::Software(string a, string b, string c, string d) : version(a), ver_cod
     system("chcp 1251");
 }
 
-
-
 Software::~Software() {
     cout << "Destructor Software\n";
 }
