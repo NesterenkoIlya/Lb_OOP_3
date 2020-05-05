@@ -10,7 +10,7 @@ Software** add_element(Software** array, Software* element, int& n);    //Фун
 Software** delete_element(Software** array, int &n, int index); //Функция для удаления обьекта из массив
 
 int main () {
-    //system("chcp 1251");
+    system("chcp 1251");
     int n(0), index(0);
     Software** array = new Software *[n];
     Printer printer;
@@ -44,6 +44,7 @@ int main () {
                 cb->change_lang();
                 cb->change_version();
                 cb->update_project();
+                cout << *cb;
                 array = add_element(array, cb, n);
                 break;
             } case 4: { //Кейс для удаления элемента из массива array

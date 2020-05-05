@@ -73,7 +73,7 @@ void CodeBlocks::ToPrint() {
 void CodeBlocks::change_version() {
     cout << "change_version\n";
     cout << "New Version: "; cin >> version;
-    cout << "New Version CodeNae: "; cin >> ver_codename;
+    cout << "New Version CodeName: "; cin >> ver_codename;
     cout << "New project version: "; cin >> proj_inf->version;
 }
 
@@ -86,7 +86,6 @@ istream& operator>> (istream& in, CodeBlocks& obj) {
     cout << "Version CodeName: "; in >> obj.ver_codename;
     cout << "Developer: "; in >> obj.developer;
     cout << "Dev_Language: "; in >> obj.dev_lang;
-    obj.create_project();
 
     return in;
 }

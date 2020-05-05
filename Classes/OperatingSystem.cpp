@@ -46,9 +46,10 @@ void OperatingSystem::ToPrint() {
 }
 //Переопределнный метод для изменения данных о версии который наследуется из Software
 void OperatingSystem::change_version() {
+    cout << "change_version\n";
     cout << "New Version: ";
     cin >> version;
-    cout << "New Version CodeNae: ";
+    cout << "New Version CodeName: ";
     cin >> ver_codename;
 }
 
